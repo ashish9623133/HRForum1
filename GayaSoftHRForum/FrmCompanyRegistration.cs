@@ -98,7 +98,7 @@ namespace GayaSoftHRForum
                 return;
             }
 
-            if (txtOwner.Text == "")   //Owner Name Validation
+            if (txtOwner.Text == " ")   //Owner Name Validation
             {
 
                 MessageBox.Show("Please Enter Company Owner Name");
