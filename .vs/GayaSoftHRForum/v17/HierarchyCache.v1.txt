@@ -1,0 +1,944 @@
+﻿++Solution 'GayaSoftHRForum' ‎(2 of 2 projects)
+i:{00000000-0000-0000-0000-000000000000}:GayaSoftHRForum.sln
+++GayaSoftHRForumLibrary
+i:{00000000-0000-0000-0000-000000000000}:GayaSoftHRForumLibrary
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++Properties
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\properties\
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\properties\
+++References
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++Admin
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\admin\
+++ClsStaffRegistration.cs
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\admin\clsstaffregistration.cs
+++HR
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\hr\
+++ClsCandidateAssign.cs
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\hr\clscandidateassign.cs
+++ClsCandidateRegistration.cs
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\hr\clscandidateregistration.cs
+++clsCompany.cs
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\hr\clscompany.cs
+++ClsInterviewSchedule.cs
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\hr\clsinterviewschedule.cs
+++ClsJob.cs
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\hr\clsjob.cs
+++ClsLineUp.cs
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\hr\clslineup.cs
+++Images
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\images\
+++packages.config
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\packages.config
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\packages.config
+++AssemblyInfo.cs
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\properties\assemblyinfo.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\properties\assemblyinfo.cs
+++Microsoft.CSharp
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.ComponentModel.Composition
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Core
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Data
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Data.DataSetExtensions
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.IO
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Net.Http
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Runtime
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Security.Cryptography.Algorithms
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Security.Cryptography.Encoding
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Security.Cryptography.Primitives
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Security.Cryptography.X509Certificates
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Xml
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Xml.Linq
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++2089149.webp
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\images\2089149.webp
+++8fc37b74b608a622588fbaa361485f32.png
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\images\8fc37b74b608a622588fbaa361485f32.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\8fc37b74b608a622588fbaa361485f32.png
+++btnDelete.jpg
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\images\btndelete.jpg
+++btnDetails.jpg
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\images\btndetails.jpg
+++btnEdit.jpg
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\images\btnedit.jpg
+++can-u-spray-paint-a-microwave-.jpg
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\images\can-u-spray-paint-a-microwave-.jpg
+++Image1.jpg
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\images\image1.jpg
+++Image2.jpg
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\images\image2.jpg
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\image2.jpg
+++Image4.jpg
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\images\image4.jpg
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\image4.jpg
+++Image5.png
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\images\image5.png
+++Image6.jpg
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\images\image6.jpg
+++Image7.jpg
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\images\image7.jpg
+++Image8.jpg
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\images\image8.jpg
+++Image9.jpg
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\images\image9.jpg
+++images 3.jpg
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\images\images 3.jpg
+++images.jpg
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\images\images.jpg
+++mail1.png
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\images\mail1.png
+++pannel.jpg
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\images\pannel.jpg
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\pannel.jpg
+++plus.png
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\images\plus.png
+++plusIcon.jpg
+i:{08eaa4dd-e84e-4789-a857-f25fb1a988fb}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforumlibrary\images\plusicon.jpg
+++GayaSoftHRForum
+i:{00000000-0000-0000-0000-000000000000}:GayaSoftHRForum
+++Resources
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\
+++AcceptedOfferDetails.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\acceptedofferdetails.cs
+++Add member.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\add member.cs
+++AddJob.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\addjob.cs
+++Admin_Edit.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\admin_edit.cs
+++AllReports.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\allreports.cs
+++App.config
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\app.config
+++Assigned_Candidate.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\assigned_candidate.cs
+++AssignedCandidate.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\assignedcandidate.cs
+++AssignedJobsDetails.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\assignedjobsdetails.cs
+++Candidate_Pipeline.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\candidate_pipeline.cs
+++CandidateDetails.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\candidatedetails.cs
+++CandidateHistory.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\candidatehistory.cs
+++ClientPerformanceReport.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\clientperformancereport.cs
+++Closed_Jobs_Details.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\closed_jobs_details.cs
+++Comment.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\comment.cs
+++Company_Dashboard.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\company_dashboard.cs
+++Frm_Dashboard.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frm_dashboard.cs
+++Frm_Team_Performance_Report.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frm_team_performance_report.cs
+++frmAddCandidate.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmaddcandidate.cs
+++frmAddCity.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmaddcity.cs
+++frmAddCountry.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmaddcountry.cs
+++frmAddJobStream.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmaddjobstream.cs
+++frmAddQualification.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmaddqualification.cs
+++frmAddSpecialization.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmaddspecialization.cs
+++frmAddState.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmaddstate.cs
+++FrmAdminCompany.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmadmincompany.cs
+++FrmAdminDashboard.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmadmindashboard.cs
+++frmCandidateImport.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmcandidateimport.cs
+++FrmCandidateLDashBoard.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmcandidateldashboard.cs
+++frmCandidatelifecyclereport.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmcandidatelifecyclereport.cs
+++FrmCandidateList.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmcandidatelist.cs
+++frmchangepassword.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmchangepassword.cs
+++FrmCompanyList.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmcompanylist.cs
+++FrmCompanyRegistration.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmcompanyregistration.cs
+++frmDetails.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmdetails.cs
+++FrmEditCompany.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmeditcompany.cs
+++frmEducationInformation.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmeducationinformation.cs
+++FrmEmail.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmemail.cs
+++frmEmploymentDetails.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmemploymentdetails.cs
+++frmforgotpassword.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmforgotpassword.cs
+++FrmHRForumDashboard.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmhrforumdashboard.cs
+++FrmImportCompany.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmimportcompany.cs
+++FrmImportJob.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmimportjob.cs
+++FrmIndustry.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmindustry.cs
+++Frmjobdash.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmjobdash.cs
+++FrmJobList.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmjoblist.cs
+++FrmLineUp.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmlineup.cs
+++FrmLogin.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmlogin.cs
+++frmMemberSettingEditStaff.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmmembersettingeditstaff.cs
+++FrmNotification_For_Closed_Job.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmnotification_for_closed_job.cs
+++frmPersonalInformation.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmpersonalinformation.cs
+++frmPreference.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmpreference.cs
+++frmQueAns.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmqueans.cs
+++FrmShowCandidateList.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmshowcandidatelist.cs
+++FrmUpdateOpenHoldJob.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmupdateopenholdjob.cs
+++frmUploadDocument.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmuploaddocument.cs
+++GayaSoftHRForum_TemporaryKey.pfx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\gayasofthrforum_temporarykey.pfx
+++Individual_Companywise_Job_Opening_List.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\individual_companywise_job_opening_list.cs
+++Interview_Scheduled_Candidate.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\interview_scheduled_candidate.cs
+++InterviewDetails.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\interviewdetails.cs
+++Interviewed.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\interviewed.cs
+++InterviewNotAttended.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\interviewnotattended.cs
+++InterviewRescheduled.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\interviewrescheduled.cs
+++InterviewScheduledList.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\interviewscheduledlist.cs
+++Job_Statistics_Report.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\job_statistics_report.cs
+++Jobs.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\jobs.cs
+++LineUpCandidateList.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\lineupcandidatelist.cs
+++MatchingCandidate.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\matchingcandidate.cs
+++OfferAcceptedCandidates.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\offeracceptedcandidates.cs
+++OfferAcceptedDetails.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\offeraccepteddetails.cs
+++OfferedCandidates.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\offeredcandidates.cs
+++OfferRejectedCandidate.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\offerrejectedcandidate.cs
+++OnHoldCandidates.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\onholdcandidates.cs
+++Open_Jobs_Details.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\open_jobs_details.cs
+++PlacedCandidates.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\placedcandidates.cs
+++PlacementDetails.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\placementdetails.cs
+++Program.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\program.cs
+++Rejected.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\rejected.cs
+++Schedule_Candidate_Interview.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\schedule_candidate_interview.cs
+++SelectedCandidates.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\selectedcandidates.cs
+++SelectedDetails.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\selecteddetails.cs
+++ShowDetails.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\showdetails.cs
+++StaffRegistration.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\staffregistration.cs
+++UnAssignedCandidates.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\unassignedcandidates.cs
+++UnplacedCandidate.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\unplacedcandidate.cs
+++Update_Job.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\update_job.cs
+++UpdateFeedback.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\updatefeedback.cs
+++Resources.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\properties\resources.resx
+++Settings.settings
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\properties\settings.settings
+++Microsoft.Extensions.Logging.Abstractions
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++Microsoft.Extensions.Primitives
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++Microsoft.Net.Http.Headers
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++Microsoft.Net.Http.Server
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++Microsoft.Office.Interop.Excel
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++Microsoft.Win32.Primitives
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++NuGet.Common
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++NuGet.Configuration
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++NuGet.Frameworks
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.AppContext
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Buffers
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Console
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Deployment
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Diagnostics.Tracing
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Drawing
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Globalization.Calendars
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.IO.Compression
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.IO.Compression.FileSystem
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.IO.Compression.ZipFile
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.IO.FileSystem
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.IO.FileSystem.Primitives
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Linq
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Linq.Expressions
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Memory
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Net
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Net.Http.WebRequest
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Net.Sockets
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Numerics
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Numerics.Vectors
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Reflection
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Runtime.CompilerServices.Unsafe
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Runtime.Extensions
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Runtime.InteropServices
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Runtime.InteropServices.RuntimeInformation
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Security
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Text.RegularExpressions
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Windows.Forms
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Windows.Forms.DataVisualization
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++System.Xml.ReaderWriter
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:
+++attached.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\attached.png
+++Candidate.jpg
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\candidate.jpg
+++clipart2521623 (1).png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\clipart2521623 (1).png
+++clipart2521623 (2).png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\clipart2521623 (2).png
+++clipart2521623 (2)1.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\clipart2521623 (2)1.png
+++clipart2521623 (2)2.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\clipart2521623 (2)2.png
+++clipart2521623.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\clipart2521623.png
+++clipart25216231.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\clipart25216231.png
+++clipart25216232.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\clipart25216232.png
+++Company.jpg
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\company.jpg
+++Dashboard.jpg
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\dashboard.jpg
+++download-removebg-preview-removebg-preview.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\download-removebg-preview-removebg-preview.png
+++download-removebg-preview (1).png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\download-removebg-preview (1).png
+++download-removebg-preview.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\download-removebg-preview.png
+++download-removebg-preview1.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\download-removebg-preview1.png
+++download-removebg-preview2.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\download-removebg-preview2.png
+++download-removebg-preview3.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\download-removebg-preview3.png
+++download.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\download.png
+++grey1.jpg
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\grey1.jpg
+++icons8-add-user-male-30.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-add-user-male-30.png
+++icons8-add-user-male-35.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-add-user-male-35.png
+++icons8-admin-settings-male-24.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-admin-settings-male-24.png
+++icons8-admin-settings-male-48.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-admin-settings-male-48.png
+++icons8-candidate-32.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-candidate-32.png
+++icons8-checked-identification-documents-20.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-checked-identification-documents-20.png
+++icons8-checked-identification-documents-30.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-checked-identification-documents-30.png
+++icons8-checked-identification-documents-48 (1).png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-checked-identification-documents-48 (1).png
+++icons8-checked-identification-documents-48.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-checked-identification-documents-48.png
+++icons8-closed-eye-32.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-closed-eye-32.png
+++icons8-cloud-sync-35.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-cloud-sync-35.png
+++icons8-company-30.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-company-30.png
+++icons8-contact-30.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-contact-30.png
+++icons8-dashboard-32.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-dashboard-32.png
+++icons8-dashboard-64.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-dashboard-64.png
+++icons8-delete-trash-50.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-delete-trash-50.png
+++icons8-delete-trash-501.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-delete-trash-501.png
+++icons8-delete-trash-502.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-delete-trash-502.png
+++icons8-delete-trash-503.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-delete-trash-503.png
+++icons8-details-30.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-details-30.png
+++icons8-details-301.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-details-301.png
+++icons8-details-302.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-details-302.png
+++icons8-details-303.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-details-303.png
+++icons8-edit-64.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-edit-64.png
+++icons8-edit-641.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-edit-641.png
+++icons8-edit-642.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-edit-642.png
+++icons8-eye-32.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-eye-32.png
+++icons8-eye-321.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-eye-321.png
+++icons8-gear-38.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-gear-38.png
+++icons8-gear-64.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-gear-64.png
+++icons8-good-pincode-35.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-good-pincode-35.png
+++icons8-hips-64.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-hips-64.png
+++icons8-lock-34.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-lock-34.png
+++icons8-log-out-32.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-log-out-32.png
+++icons8-log-out-321.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-log-out-321.png
+++icons8-log-out-322.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-log-out-322.png
+++icons8-log-out-323.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-log-out-323.png
+++icons8-log-out-324.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-log-out-324.png
+++icons8-log-out-325.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-log-out-325.png
+++icons8-log-out-326.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-log-out-326.png
+++icons8-log-out-327.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-log-out-327.png
+++icons8-log-out-328.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-log-out-328.png
+++icons8-log-out-329.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-log-out-329.png
+++icons8-logout-58.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-logout-58.png
+++icons8-mail-100.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-mail-100.png
+++icons8-padlock-30.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-padlock-30.png
+++icons8-paper-plane-64 (1).png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-paper-plane-64 (1).png
+++icons8-paper-plane-64.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-paper-plane-64.png
+++icons8-people-64.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-people-64.png
+++icons8-security-lock-64.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-security-lock-64.png
+++icons8-services-64.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-services-64.png
+++icons8-settings-48.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-settings-48.png
+++icons8-settings-64 (1).png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-settings-64 (1).png
+++icons8-settings-64.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-settings-64.png
+++icons8-share-32.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-share-32.png
+++icons8-show-password-48.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-show-password-48.png
+++icons8-show-password-50.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-show-password-50.png
+++icons8-show-password-501.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\icons8-show-password-501.png
+++Image41.jpg
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\image41.jpg
+++Image42.jpg
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\image42.jpg
+++Image43.jpg
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\image43.jpg
+++Job.jpg
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\job.jpg
+++kindpng_248729.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\kindpng_248729.png
+++kindpng_754833.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\kindpng_754833.png
+++kindpng_photo_Shop.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\kindpng_photo_shop.png
+++kindpng_photo_Shop1.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\kindpng_photo_shop1.png
+++kindpng_photo_Shop2.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\kindpng_photo_shop2.png
+++Line_Up.jpg
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\line_up.jpg
+++new2.jpg
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\new2.jpg
+++new21.jpg
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\new21.jpg
+++new22.jpg
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\new22.jpg
+++new3.jpg
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\new3.jpg
+++new4.jpg
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\new4.jpg
+++output-onlinepngtools.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\output-onlinepngtools.png
+++output-onlinepngtools1.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\output-onlinepngtools1.png
+++output-onlinepngtools2.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\output-onlinepngtools2.png
+++ps.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\ps.png
+++ps1.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\ps1.png
+++pslogin.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\pslogin.png
+++Rahitechlogo.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\rahitechlogo.png
+++Screenshot (27).png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\screenshot (27).png
+++Screenshot (27)1.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\screenshot (27)1.png
+++Screenshot (27)2.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\screenshot (27)2.png
+++Screenshot (27)3.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\screenshot (27)3.png
+++Screenshot (27)4.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\screenshot (27)4.png
+++Screenshot (27)5.png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\screenshot (27)5.png
+++Screenshot (30).png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\screenshot (30).png
+++Screenshot (31).png
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\screenshot (31).png
+++Staff.jpg
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\staff.jpg
+++WhatsApp Image 2022-04-05 at 6.54.45 PM.jpeg
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\resources\whatsapp image 2022-04-05 at 6.54.45 pm.jpeg
+++AcceptedOfferDetails.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\acceptedofferdetails.designer.cs
+++AcceptedOfferDetails.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\acceptedofferdetails.resx
+++Add member.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\add member.designer.cs
+++Add member.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\add member.resx
+++AddJob.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\addjob.designer.cs
+++AddJob.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\addjob.resx
+++Admin_Edit.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\admin_edit.designer.cs
+++Admin_Edit.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\admin_edit.resx
+++AllReports.Designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\allreports.designer.cs
+++AllReports.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\allreports.resx
+++Assigned_Candidate.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\assigned_candidate.designer.cs
+++Assigned_Candidate.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\assigned_candidate.resx
+++AssignedCandidate.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\assignedcandidate.designer.cs
+++AssignedCandidate.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\assignedcandidate.resx
+++AssignedJobsDetails.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\assignedjobsdetails.designer.cs
+++AssignedJobsDetails.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\assignedjobsdetails.resx
+++Candidate_Pipeline.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\candidate_pipeline.designer.cs
+++Candidate_Pipeline.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\candidate_pipeline.resx
+++CandidateDetails.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\candidatedetails.designer.cs
+++CandidateDetails.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\candidatedetails.resx
+++CandidateHistory.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\candidatehistory.designer.cs
+++CandidateHistory.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\candidatehistory.resx
+++ClientPerformanceReport.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\clientperformancereport.designer.cs
+++ClientPerformanceReport.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\clientperformancereport.resx
+++Closed_Jobs_Details.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\closed_jobs_details.designer.cs
+++Closed_Jobs_Details.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\closed_jobs_details.resx
+++Comment.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\comment.designer.cs
+++Comment.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\comment.resx
+++Company_Dashboard.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\company_dashboard.designer.cs
+++Company_Dashboard.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\company_dashboard.resx
+++Frm_Dashboard.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frm_dashboard.designer.cs
+++Frm_Dashboard.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frm_dashboard.resx
+++Frm_Team_Performance_Report.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frm_team_performance_report.designer.cs
+++Frm_Team_Performance_Report.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frm_team_performance_report.resx
+++frmAddCandidate.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmaddcandidate.designer.cs
+++frmAddCandidate.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmaddcandidate.resx
+++frmAddCity.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmaddcity.designer.cs
+++frmAddCity.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmaddcity.resx
+++frmAddCountry.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmaddcountry.designer.cs
+++frmAddCountry.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmaddcountry.resx
+++frmAddJobStream.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmaddjobstream.designer.cs
+++frmAddJobStream.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmaddjobstream.resx
+++frmAddQualification.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmaddqualification.designer.cs
+++frmAddQualification.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmaddqualification.resx
+++frmAddSpecialization.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmaddspecialization.designer.cs
+++frmAddSpecialization.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmaddspecialization.resx
+++frmAddState.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmaddstate.designer.cs
+++frmAddState.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmaddstate.resx
+++FrmAdminCompany.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmadmincompany.designer.cs
+++FrmAdminCompany.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmadmincompany.resx
+++FrmAdminDashboard.Designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmadmindashboard.designer.cs
+++FrmAdminDashboard.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmadmindashboard.resx
+++frmCandidateImport.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmcandidateimport.designer.cs
+++frmCandidateImport.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmcandidateimport.resx
+++FrmCandidateLDashBoard.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmcandidateldashboard.designer.cs
+++FrmCandidateLDashBoard.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmcandidateldashboard.resx
+++frmCandidatelifecyclereport.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmcandidatelifecyclereport.designer.cs
+++frmCandidatelifecyclereport.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmcandidatelifecyclereport.resx
+++FrmCandidateList.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmcandidatelist.designer.cs
+++FrmCandidateList.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmcandidatelist.resx
+++frmchangepassword.Designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmchangepassword.designer.cs
+++frmchangepassword.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmchangepassword.resx
+++FrmCompanyList.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmcompanylist.designer.cs
+++FrmCompanyList.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmcompanylist.resx
+++FrmCompanyRegistration.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmcompanyregistration.designer.cs
+++FrmCompanyRegistration.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmcompanyregistration.resx
+++frmDetails.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmdetails.designer.cs
+++frmDetails.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmdetails.resx
+++FrmEditCompany.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmeditcompany.designer.cs
+++FrmEditCompany.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmeditcompany.resx
+++frmEducationInformation.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmeducationinformation.designer.cs
+++frmEducationInformation.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmeducationinformation.resx
+++FrmEmail.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmemail.designer.cs
+++FrmEmail.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmemail.resx
+++frmEmploymentDetails.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmemploymentdetails.designer.cs
+++frmEmploymentDetails.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmemploymentdetails.resx
+++frmforgotpassword.Designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmforgotpassword.designer.cs
+++frmforgotpassword.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmforgotpassword.resx
+++FrmHRForumDashboard.Designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmhrforumdashboard.designer.cs
+++FrmHRForumDashboard.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmhrforumdashboard.resx
+++FrmImportCompany.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmimportcompany.designer.cs
+++FrmImportCompany.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmimportcompany.resx
+++FrmImportJob.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmimportjob.designer.cs
+++FrmImportJob.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmimportjob.resx
+++FrmIndustry.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmindustry.designer.cs
+++FrmIndustry.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmindustry.resx
+++Frmjobdash.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmjobdash.designer.cs
+++Frmjobdash.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmjobdash.resx
+++FrmJobList.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmjoblist.designer.cs
+++FrmJobList.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmjoblist.resx
+++FrmLineUp.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmlineup.designer.cs
+++FrmLineUp.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmlineup.resx
+++FrmLogin.Designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmlogin.designer.cs
+++FrmLogin.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmlogin.resx
+++frmMemberSettingEditStaff.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmmembersettingeditstaff.designer.cs
+++frmMemberSettingEditStaff.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmmembersettingeditstaff.resx
+++FrmNotification_For_Closed_Job.Designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmnotification_for_closed_job.designer.cs
+++FrmNotification_For_Closed_Job.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmnotification_for_closed_job.resx
+++frmPersonalInformation.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmpersonalinformation.designer.cs
+++frmPersonalInformation.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmpersonalinformation.resx
+++frmPreference.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmpreference.designer.cs
+++frmPreference.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmpreference.resx
+++frmQueAns.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmqueans.designer.cs
+++frmQueAns.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmqueans.resx
+++FrmShowCandidateList.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmshowcandidatelist.designer.cs
+++FrmShowCandidateList.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmshowcandidatelist.resx
+++FrmUpdateOpenHoldJob.Designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmupdateopenholdjob.designer.cs
+++FrmUpdateOpenHoldJob.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmupdateopenholdjob.resx
+++frmUploadDocument.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmuploaddocument.designer.cs
+++frmUploadDocument.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\frmuploaddocument.resx
+++Individual_Companywise_Job_Opening_List.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\individual_companywise_job_opening_list.designer.cs
+++Individual_Companywise_Job_Opening_List.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\individual_companywise_job_opening_list.resx
+++Interview_Scheduled_Candidate.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\interview_scheduled_candidate.designer.cs
+++Interview_Scheduled_Candidate.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\interview_scheduled_candidate.resx
+++InterviewDetails.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\interviewdetails.designer.cs
+++InterviewDetails.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\interviewdetails.resx
+++Interviewed.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\interviewed.designer.cs
+++Interviewed.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\interviewed.resx
+++InterviewNotAttended.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\interviewnotattended.designer.cs
+++InterviewNotAttended.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\interviewnotattended.resx
+++InterviewRescheduled.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\interviewrescheduled.designer.cs
+++InterviewRescheduled.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\interviewrescheduled.resx
+++InterviewScheduledList.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\interviewscheduledlist.designer.cs
+++InterviewScheduledList.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\interviewscheduledlist.resx
+++Job_Statistics_Report.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\job_statistics_report.designer.cs
+++Job_Statistics_Report.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\job_statistics_report.resx
+++Jobs.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\jobs.designer.cs
+++Jobs.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\jobs.resx
+++LineUpCandidateList.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\lineupcandidatelist.designer.cs
+++LineUpCandidateList.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\lineupcandidatelist.resx
+++MatchingCandidate.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\matchingcandidate.designer.cs
+++MatchingCandidate.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\matchingcandidate.resx
+++OfferAcceptedCandidates.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\offeracceptedcandidates.designer.cs
+++OfferAcceptedCandidates.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\offeracceptedcandidates.resx
+++OfferAcceptedDetails.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\offeraccepteddetails.designer.cs
+++OfferAcceptedDetails.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\offeraccepteddetails.resx
+++OfferedCandidates.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\offeredcandidates.designer.cs
+++OfferedCandidates.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\offeredcandidates.resx
+++OfferRejectedCandidate.Designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\offerrejectedcandidate.designer.cs
+++OfferRejectedCandidate.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\offerrejectedcandidate.resx
+++OnHoldCandidates.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\onholdcandidates.designer.cs
+++OnHoldCandidates.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\onholdcandidates.resx
+++Open_Jobs_Details.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\open_jobs_details.designer.cs
+++Open_Jobs_Details.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\open_jobs_details.resx
+++PlacedCandidates.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\placedcandidates.designer.cs
+++PlacedCandidates.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\placedcandidates.resx
+++PlacementDetails.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\placementdetails.designer.cs
+++PlacementDetails.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\placementdetails.resx
+++Rejected.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\rejected.designer.cs
+++Rejected.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\rejected.resx
+++Schedule_Candidate_Interview.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\schedule_candidate_interview.designer.cs
+++Schedule_Candidate_Interview.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\schedule_candidate_interview.resx
+++SelectedCandidates.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\selectedcandidates.designer.cs
+++SelectedCandidates.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\selectedcandidates.resx
+++SelectedDetails.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\selecteddetails.designer.cs
+++SelectedDetails.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\selecteddetails.resx
+++ShowDetails.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\showdetails.designer.cs
+++ShowDetails.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\showdetails.resx
+++StaffRegistration.Designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\staffregistration.designer.cs
+++StaffRegistration.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\staffregistration.resx
+++UnAssignedCandidates.Designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\unassignedcandidates.designer.cs
+++UnAssignedCandidates.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\unassignedcandidates.resx
+++UnplacedCandidate.Designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\unplacedcandidate.designer.cs
+++UnplacedCandidate.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\unplacedcandidate.resx
+++Update_Job.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\update_job.designer.cs
+++Update_Job.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\update_job.resx
+++UpdateFeedback.designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\updatefeedback.designer.cs
+++UpdateFeedback.resx
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\updatefeedback.resx
+++Resources.Designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\properties\resources.designer.cs
+++Settings.Designer.cs
+i:{091d94e6-015a-4370-a0d2-09dacf3b8b6a}:d:\.net\final project ado_hr forum 25 may\gayasofthrforum\gayasofthrforum\properties\settings.designer.cs

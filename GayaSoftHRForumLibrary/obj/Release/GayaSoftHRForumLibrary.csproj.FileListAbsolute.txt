@@ -1,0 +1,6 @@
+D:\.NET\Final Project ADO_HR Forum 25 May\GayaSoftHRForum\GayaSoftHRForumLibrary\bin\Release\GayaSoftHRForumLibrary.dll
+D:\.NET\Final Project ADO_HR Forum 25 May\GayaSoftHRForum\GayaSoftHRForumLibrary\bin\Release\GayaSoftHRForumLibrary.pdb
+D:\.NET\Final Project ADO_HR Forum 25 May\GayaSoftHRForum\GayaSoftHRForumLibrary\obj\Release\GayaSoftHRForumLibrary.csproj.AssemblyReference.cache
+D:\.NET\Final Project ADO_HR Forum 25 May\GayaSoftHRForum\GayaSoftHRForumLibrary\obj\Release\GayaSoftHRForumLibrary.csproj.CoreCompileInputs.cache
+D:\.NET\Final Project ADO_HR Forum 25 May\GayaSoftHRForum\GayaSoftHRForumLibrary\obj\Release\GayaSoftHRForumLibrary.dll
+D:\.NET\Final Project ADO_HR Forum 25 May\GayaSoftHRForum\GayaSoftHRForumLibrary\obj\Release\GayaSoftHRForumLibrary.pdb

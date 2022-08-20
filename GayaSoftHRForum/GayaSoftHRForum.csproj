@@ -1,0 +1,1388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{091D94E6-015A-4370-A0D2-09DACF3B8B6A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GayaSoftHRForum</RootNamespace>
+    <AssemblyName>GayaSoftHRForum</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Ashish\Desktop\HRForum Setup File\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ProductName>HRForum</ProductName>
+    <PublisherName>Ashish</PublisherName>
+    <SuiteName>GAYASOFT</SuiteName>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsUrl>C:\Users\Ashish\Desktop\HRForum Setup File</BootstrapperComponentsUrl>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>B9DBF4F97A54FF216FCF4C56E87444F8C8FCD1EB</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>GayaSoftHRForum_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=1.1.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.1.1.2\lib\netstandard1.1\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Primitives.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Net.Http.Headers, Version=2.2.8.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.Headers.2.2.8\lib\netstandard2.0\Microsoft.Net.Http.Headers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Net.Http.Server, Version=1.1.4.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.Server.1.1.4\lib\net451\Microsoft.Net.Http.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\..\Windows\microsoft.office.interop.excel\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Win32.Primitives.4.3.0\lib\net46\Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NuGet.Common, Version=6.1.0.106, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\NuGet.Common.6.1.0\lib\net472\NuGet.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="NuGet.Configuration, Version=6.1.0.106, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\NuGet.Configuration.6.1.0\lib\net472\NuGet.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="NuGet.Frameworks, Version=6.1.0.106, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\NuGet.Frameworks.6.1.0\lib\net472\NuGet.Frameworks.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.AppContext, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.AppContext.4.3.0\lib\net463\System.AppContext.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Console, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Console.4.3.0\lib\net46\System.Console.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Diagnostics.Tracing, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.Tracing.4.3.0\lib\net462\System.Diagnostics.Tracing.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Globalization.Calendars.4.3.0\lib\net46\System.Globalization.Calendars.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Compression.4.3.0\lib\net46\System.IO.Compression.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.IO.Compression.ZipFile, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Compression.ZipFile.4.3.0\lib\net46\System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.FileSystem.4.3.0\lib\net46\System.IO.FileSystem.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.FileSystem.Primitives.4.3.0\lib\net46\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Linq, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Linq.4.3.0\lib\net463\System.Linq.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Linq.Expressions.4.3.0\lib\net463\System.Linq.Expressions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.1\lib\netstandard2.0\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Net.Sockets, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Sockets.4.3.0\lib\net46\System.Net.Sockets.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.4.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Reflection.4.3.0\lib\net462\System.Reflection.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.4.3.0\lib\net462\System.Runtime.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.1\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.Extensions.4.3.0\lib\net462\System.Runtime.Extensions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.InteropServices.4.3.0\lib\net463\System.Runtime.InteropServices.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Algorithms.4.3.0\lib\net463\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.X509Certificates.4.3.0\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.RegularExpressions.4.3.0\lib\net463\System.Text.RegularExpressions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.ReaderWriter, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Xml.ReaderWriter.4.3.0\lib\net46\System.Xml.ReaderWriter.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcceptedOfferDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AcceptedOfferDetails.designer.cs">
+      <DependentUpon>AcceptedOfferDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add member.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add member.designer.cs">
+      <DependentUpon>Add member.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddJob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddJob.designer.cs">
+      <DependentUpon>AddJob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Edit.designer.cs">
+      <DependentUpon>Admin_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllReports.Designer.cs">
+      <DependentUpon>AllReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssignedCandidate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssignedCandidate.designer.cs">
+      <DependentUpon>AssignedCandidate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AssignedJobsDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssignedJobsDetails.designer.cs">
+      <DependentUpon>AssignedJobsDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Assigned_Candidate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assigned_Candidate.designer.cs">
+      <DependentUpon>Assigned_Candidate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CandidateDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CandidateDetails.designer.cs">
+      <DependentUpon>CandidateDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CandidateHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CandidateHistory.designer.cs">
+      <DependentUpon>CandidateHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Candidate_Pipeline.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Candidate_Pipeline.designer.cs">
+      <DependentUpon>Candidate_Pipeline.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientPerformanceReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientPerformanceReport.designer.cs">
+      <DependentUpon>ClientPerformanceReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Closed_Jobs_Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Closed_Jobs_Details.designer.cs">
+      <DependentUpon>Closed_Jobs_Details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Comment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comment.designer.cs">
+      <DependentUpon>Comment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Company_Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Company_Dashboard.designer.cs">
+      <DependentUpon>Company_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCandidatelifecyclereport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCandidatelifecyclereport.designer.cs">
+      <DependentUpon>frmCandidatelifecyclereport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAdminCompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAdminCompany.designer.cs">
+      <DependentUpon>FrmAdminCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddCandidate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddCandidate.designer.cs">
+      <DependentUpon>frmAddCandidate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddCity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddCity.designer.cs">
+      <DependentUpon>frmAddCity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddCountry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddCountry.designer.cs">
+      <DependentUpon>frmAddCountry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddJobStream.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddJobStream.designer.cs">
+      <DependentUpon>frmAddJobStream.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddQualification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddQualification.designer.cs">
+      <DependentUpon>frmAddQualification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddSpecialization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddSpecialization.designer.cs">
+      <DependentUpon>frmAddSpecialization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddState.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddState.designer.cs">
+      <DependentUpon>frmAddState.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAdminDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAdminDashboard.Designer.cs">
+      <DependentUpon>FrmAdminDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCandidateImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCandidateImport.designer.cs">
+      <DependentUpon>frmCandidateImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCandidateLDashBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCandidateLDashBoard.designer.cs">
+      <DependentUpon>FrmCandidateLDashBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCandidateList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCandidateList.designer.cs">
+      <DependentUpon>FrmCandidateList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmchangepassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmchangepassword.Designer.cs">
+      <DependentUpon>frmchangepassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDetails.designer.cs">
+      <DependentUpon>frmDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEducationInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEducationInformation.designer.cs">
+      <DependentUpon>frmEducationInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEmail.designer.cs">
+      <DependentUpon>FrmEmail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmploymentDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmploymentDetails.designer.cs">
+      <DependentUpon>frmEmploymentDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmImportJob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmImportJob.designer.cs">
+      <DependentUpon>FrmImportJob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLineUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLineUp.designer.cs">
+      <DependentUpon>FrmLineUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMemberSettingEditStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMemberSettingEditStaff.designer.cs">
+      <DependentUpon>frmMemberSettingEditStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNotification_For_Closed_Job.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNotification_For_Closed_Job.Designer.cs">
+      <DependentUpon>FrmNotification_For_Closed_Job.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPersonalInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPersonalInformation.designer.cs">
+      <DependentUpon>frmPersonalInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPreference.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPreference.designer.cs">
+      <DependentUpon>frmPreference.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQueAns.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQueAns.designer.cs">
+      <DependentUpon>frmQueAns.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmShowCandidateList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmShowCandidateList.designer.cs">
+      <DependentUpon>FrmShowCandidateList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUpdateOpenHoldJob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUpdateOpenHoldJob.Designer.cs">
+      <DependentUpon>FrmUpdateOpenHoldJob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCompanyList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCompanyList.designer.cs">
+      <DependentUpon>FrmCompanyList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCompanyRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCompanyRegistration.designer.cs">
+      <DependentUpon>FrmCompanyRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEditCompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEditCompany.designer.cs">
+      <DependentUpon>FrmEditCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmforgotpassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmforgotpassword.Designer.cs">
+      <DependentUpon>frmforgotpassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHRForumDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHRForumDashboard.Designer.cs">
+      <DependentUpon>FrmHRForumDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmImportCompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmImportCompany.designer.cs">
+      <DependentUpon>FrmImportCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmIndustry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmIndustry.designer.cs">
+      <DependentUpon>FrmIndustry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmjobdash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmjobdash.designer.cs">
+      <DependentUpon>Frmjobdash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmJobList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmJobList.designer.cs">
+      <DependentUpon>FrmJobList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUploadDocument.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUploadDocument.designer.cs">
+      <DependentUpon>frmUploadDocument.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Dashboard.designer.cs">
+      <DependentUpon>Frm_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Team_Performance_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Team_Performance_Report.designer.cs">
+      <DependentUpon>Frm_Team_Performance_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Individual_Companywise_Job_Opening_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Individual_Companywise_Job_Opening_List.designer.cs">
+      <DependentUpon>Individual_Companywise_Job_Opening_List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterviewDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterviewDetails.designer.cs">
+      <DependentUpon>InterviewDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interviewed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interviewed.designer.cs">
+      <DependentUpon>Interviewed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterviewNotAttended.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterviewNotAttended.designer.cs">
+      <DependentUpon>InterviewNotAttended.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterviewRescheduled.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterviewRescheduled.designer.cs">
+      <DependentUpon>InterviewRescheduled.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InterviewScheduledList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InterviewScheduledList.designer.cs">
+      <DependentUpon>InterviewScheduledList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interview_Scheduled_Candidate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interview_Scheduled_Candidate.designer.cs">
+      <DependentUpon>Interview_Scheduled_Candidate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Jobs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jobs.designer.cs">
+      <DependentUpon>Jobs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Job_Statistics_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Job_Statistics_Report.designer.cs">
+      <DependentUpon>Job_Statistics_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LineUpCandidateList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LineUpCandidateList.designer.cs">
+      <DependentUpon>LineUpCandidateList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MatchingCandidate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MatchingCandidate.designer.cs">
+      <DependentUpon>MatchingCandidate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OfferAcceptedCandidates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OfferAcceptedCandidates.designer.cs">
+      <DependentUpon>OfferAcceptedCandidates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OfferAcceptedDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OfferAcceptedDetails.designer.cs">
+      <DependentUpon>OfferAcceptedDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OfferedCandidates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OfferedCandidates.designer.cs">
+      <DependentUpon>OfferedCandidates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OfferRejectedCandidate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OfferRejectedCandidate.Designer.cs">
+      <DependentUpon>OfferRejectedCandidate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OnHoldCandidates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OnHoldCandidates.designer.cs">
+      <DependentUpon>OnHoldCandidates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Open_Jobs_Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Open_Jobs_Details.designer.cs">
+      <DependentUpon>Open_Jobs_Details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlacedCandidates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlacedCandidates.designer.cs">
+      <DependentUpon>PlacedCandidates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PlacementDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PlacementDetails.designer.cs">
+      <DependentUpon>PlacementDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rejected.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rejected.designer.cs">
+      <DependentUpon>Rejected.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Schedule_Candidate_Interview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Schedule_Candidate_Interview.designer.cs">
+      <DependentUpon>Schedule_Candidate_Interview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectedCandidates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectedCandidates.designer.cs">
+      <DependentUpon>SelectedCandidates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectedDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectedDetails.designer.cs">
+      <DependentUpon>SelectedDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowDetails.designer.cs">
+      <DependentUpon>ShowDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StaffRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffRegistration.Designer.cs">
+      <DependentUpon>StaffRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnAssignedCandidates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnAssignedCandidates.Designer.cs">
+      <DependentUpon>UnAssignedCandidates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UnplacedCandidate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnplacedCandidate.Designer.cs">
+      <DependentUpon>UnplacedCandidate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateFeedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateFeedback.designer.cs">
+      <DependentUpon>UpdateFeedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update_Job.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_Job.designer.cs">
+      <DependentUpon>Update_Job.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AcceptedOfferDetails.resx">
+      <DependentUpon>AcceptedOfferDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add member.resx">
+      <DependentUpon>Add member.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddJob.resx">
+      <DependentUpon>AddJob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Edit.resx">
+      <DependentUpon>Admin_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AllReports.resx">
+      <DependentUpon>AllReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssignedCandidate.resx">
+      <DependentUpon>AssignedCandidate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AssignedJobsDetails.resx">
+      <DependentUpon>AssignedJobsDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Assigned_Candidate.resx">
+      <DependentUpon>Assigned_Candidate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CandidateDetails.resx">
+      <DependentUpon>CandidateDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CandidateHistory.resx">
+      <DependentUpon>CandidateHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Candidate_Pipeline.resx">
+      <DependentUpon>Candidate_Pipeline.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientPerformanceReport.resx">
+      <DependentUpon>ClientPerformanceReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Closed_Jobs_Details.resx">
+      <DependentUpon>Closed_Jobs_Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comment.resx">
+      <DependentUpon>Comment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Company_Dashboard.resx">
+      <DependentUpon>Company_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCandidatelifecyclereport.resx">
+      <DependentUpon>frmCandidatelifecyclereport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAdminCompany.resx">
+      <DependentUpon>FrmAdminCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddCandidate.resx">
+      <DependentUpon>frmAddCandidate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddCity.resx">
+      <DependentUpon>frmAddCity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddCountry.resx">
+      <DependentUpon>frmAddCountry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddJobStream.resx">
+      <DependentUpon>frmAddJobStream.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddQualification.resx">
+      <DependentUpon>frmAddQualification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddSpecialization.resx">
+      <DependentUpon>frmAddSpecialization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddState.resx">
+      <DependentUpon>frmAddState.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAdminDashboard.resx">
+      <DependentUpon>FrmAdminDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCandidateImport.resx">
+      <DependentUpon>frmCandidateImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCandidateLDashBoard.resx">
+      <DependentUpon>FrmCandidateLDashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCandidateList.resx">
+      <DependentUpon>FrmCandidateList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmchangepassword.resx">
+      <DependentUpon>frmchangepassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCompanyList.resx">
+      <DependentUpon>FrmCompanyList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCompanyRegistration.resx">
+      <DependentUpon>FrmCompanyRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDetails.resx">
+      <DependentUpon>frmDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditCompany.resx">
+      <DependentUpon>FrmEditCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEducationInformation.resx">
+      <DependentUpon>frmEducationInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEmail.resx">
+      <DependentUpon>FrmEmail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmploymentDetails.resx">
+      <DependentUpon>frmEmploymentDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmforgotpassword.resx">
+      <DependentUpon>frmforgotpassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHRForumDashboard.resx">
+      <DependentUpon>FrmHRForumDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmImportCompany.resx">
+      <DependentUpon>FrmImportCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmImportJob.resx">
+      <DependentUpon>FrmImportJob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmIndustry.resx">
+      <DependentUpon>FrmIndustry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmjobdash.resx">
+      <DependentUpon>Frmjobdash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmJobList.resx">
+      <DependentUpon>FrmJobList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLineUp.resx">
+      <DependentUpon>FrmLineUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMemberSettingEditStaff.resx">
+      <DependentUpon>frmMemberSettingEditStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNotification_For_Closed_Job.resx">
+      <DependentUpon>FrmNotification_For_Closed_Job.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPersonalInformation.resx">
+      <DependentUpon>frmPersonalInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPreference.resx">
+      <DependentUpon>frmPreference.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQueAns.resx">
+      <DependentUpon>frmQueAns.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmShowCandidateList.resx">
+      <DependentUpon>FrmShowCandidateList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUpdateOpenHoldJob.resx">
+      <DependentUpon>FrmUpdateOpenHoldJob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUploadDocument.resx">
+      <DependentUpon>frmUploadDocument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Dashboard.resx">
+      <DependentUpon>Frm_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Team_Performance_Report.resx">
+      <DependentUpon>Frm_Team_Performance_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Individual_Companywise_Job_Opening_List.resx">
+      <DependentUpon>Individual_Companywise_Job_Opening_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterviewDetails.resx">
+      <DependentUpon>InterviewDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interviewed.resx">
+      <DependentUpon>Interviewed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterviewNotAttended.resx">
+      <DependentUpon>InterviewNotAttended.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterviewRescheduled.resx">
+      <DependentUpon>InterviewRescheduled.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InterviewScheduledList.resx">
+      <DependentUpon>InterviewScheduledList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interview_Scheduled_Candidate.resx">
+      <DependentUpon>Interview_Scheduled_Candidate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jobs.resx">
+      <DependentUpon>Jobs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Job_Statistics_Report.resx">
+      <DependentUpon>Job_Statistics_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LineUpCandidateList.resx">
+      <DependentUpon>LineUpCandidateList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MatchingCandidate.resx">
+      <DependentUpon>MatchingCandidate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OfferAcceptedCandidates.resx">
+      <DependentUpon>OfferAcceptedCandidates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OfferAcceptedDetails.resx">
+      <DependentUpon>OfferAcceptedDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OfferedCandidates.resx">
+      <DependentUpon>OfferedCandidates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OfferRejectedCandidate.resx">
+      <DependentUpon>OfferRejectedCandidate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OnHoldCandidates.resx">
+      <DependentUpon>OnHoldCandidates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Open_Jobs_Details.resx">
+      <DependentUpon>Open_Jobs_Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlacedCandidates.resx">
+      <DependentUpon>PlacedCandidates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PlacementDetails.resx">
+      <DependentUpon>PlacementDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rejected.resx">
+      <DependentUpon>Rejected.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Schedule_Candidate_Interview.resx">
+      <DependentUpon>Schedule_Candidate_Interview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectedCandidates.resx">
+      <DependentUpon>SelectedCandidates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectedDetails.resx">
+      <DependentUpon>SelectedDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowDetails.resx">
+      <DependentUpon>ShowDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffRegistration.resx">
+      <DependentUpon>StaffRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UnAssignedCandidates.resx">
+      <DependentUpon>UnAssignedCandidates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnplacedCandidate.resx">
+      <DependentUpon>UnplacedCandidate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateFeedback.resx">
+      <DependentUpon>UpdateFeedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_Job.resx">
+      <DependentUpon>Update_Job.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="GayaSoftHRForum_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GayaSoftHRForumLibrary\GayaSoftHRForumLibrary.csproj">
+      <Project>{08eaa4dd-e84e-4789-a857-f25fb1a988fb}</Project>
+      <Name>GayaSoftHRForumLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rahitechlogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dashboard.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Candidate.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Company.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Job.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Line_Up.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image41.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image42.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pannel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grey1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image43.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clipart2521623 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clipart2521623 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clipart2521623.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\output-onlinepngtools.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\output-onlinepngtools1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clipart2521623 %282%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\output-onlinepngtools2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clipart2521623 %282%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2022-04-05 at 6.54.45 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-removebg-preview %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dashboard-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-dashboard-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-candidate-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-company-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-contact-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-share-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-removebg-preview2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-details-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-edit-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-delete-trash-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-log-out-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-log-out-321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-logout-58.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-log-out-322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-log-out-323.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-security-lock-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-hips-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-show-password-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-show-password-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-services-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-settings-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-gear-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-admin-settings-male-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-admin-settings-male-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-settings-64 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-settings-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kindpng_248729.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-gear-38.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kindpng_photo_Shop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-removebg-preview3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-removebg-preview-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pslogin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clipart25216231.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ps.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-user-male-35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-add-user-male-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-padlock-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-paper-plane-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-paper-plane-64 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ps1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-people-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clipart25216232.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kindpng_754833.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-closed-eye-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-eye-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot %2827%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot %2827%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot %2827%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-eye-321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kindpng_photo_Shop1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-details-301.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-edit-641.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-delete-trash-501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Staff.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-log-out-324.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-log-out-325.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot %2827%293.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot %2827%294.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-log-out-326.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot %2827%295.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-log-out-327.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kindpng_photo_Shop2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-lock-34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-good-pincode-35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cloud-sync-35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-checked-identification-documents-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-checked-identification-documents-48 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-checked-identification-documents-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-checked-identification-documents-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-mail-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-details-302.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-details-303.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-delete-trash-502.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-delete-trash-503.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-edit-642.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-log-out-328.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-log-out-329.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot %2830%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot %2831%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-show-password-501.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8fc37b74b608a622588fbaa361485f32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attached.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
