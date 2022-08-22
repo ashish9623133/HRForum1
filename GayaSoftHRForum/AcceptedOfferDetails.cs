@@ -15,6 +15,7 @@ namespace GayaSoftHRForum
 {
     public partial class AcceptedOfferDetails : Form
     {
+        //Shubham hole
         int StatusId, CandidateId, JobId, CompanyId;
         string Company_Name, JobTitle, CTC, PaymentStatus;
 
