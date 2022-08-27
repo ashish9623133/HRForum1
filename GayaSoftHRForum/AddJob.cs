@@ -23,7 +23,7 @@ namespace GayaSoftHRForum
         int Job_ID;
         //dchjsdjcsdbc
         public AddJob()
-        {.
+        {
             InitializeComponent();
         }
         public AddJob(int jobid)
@@ -39,7 +39,7 @@ namespace GayaSoftHRForum
             cmbbxcompany.ValueMember = "Company_ID";
             cmbbxcompany.DisplayMember = "Company_Name";
             cmbbxcompany.DataSource = dt;
-
+            cmbbxcompany.DataSource = dt;
         }
 
         private void cmbbxcompany_SelectedIndexChanged(object sender, EventArgs e)
