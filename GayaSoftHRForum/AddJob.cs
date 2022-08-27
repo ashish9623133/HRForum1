@@ -21,9 +21,9 @@ namespace GayaSoftHRForum
 
         int Is_Deleted = 0;
         int Job_ID;
-
+        //dchjsdjcsdbc
         public AddJob()
-        {
+        {.
             InitializeComponent();
         }
         public AddJob(int jobid)
